@@ -1,0 +1,57 @@
+@import url( subpag.css)
+
+#blog h3,h4 {
+    text-align: center;
+}
+
+
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;  
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+ ¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    familia de fuentes: 'Inconsolata', monoespacio;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color:antiquewhite;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;   
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;    
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
